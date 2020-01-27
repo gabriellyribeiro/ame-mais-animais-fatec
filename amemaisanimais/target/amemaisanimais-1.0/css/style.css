@@ -1,0 +1,414 @@
+@charset "UTF-8";
+
+header{
+	background: url('../images/background1.jpg') 100% no-repeat;
+	background-size: 100% ;
+}
+
+.jumbotron{	margin-bottom:0px; border-radius:0px;}
+
+/* Inicio media (min-width:768px) and (max-width:768px)*/
+@media only screen and (min-width:768px) and (max-width:990px){
+	.navbar-inverse{font-size: 12px; }
+        
+     header{
+	background: url('../images/background2.jpg') no-repeat;
+	background-size: 100% 100%;
+    }
+
+}
+/* fim media (min-width:768px) and (max-width:990px)*/
+
+/* Inicio media (min-width:0px) and (max-width:768px)*/
+@media only screen and (min-width:0px) and (max-width:768px){
+     header{
+	background: url('../images/background3.jpg') no-repeat;
+	background-size: 100% 100%;
+    }
+    
+    .redes-sociais {
+	padding: 0;
+	list-style: none;
+	margin: 10px 0px 5px 0px;
+        text-align: right;
+}
+
+}
+/* fim media (min-width:0px) and (max-width:768px)*/
+
+#atalhos{
+	font-size: 12px;
+	float:right;
+
+}
+.navBarra li{
+	display: inline;
+	list-style:none;
+}
+
+.navbar-inverse {
+	background: #0d89dc; /* Old browsers */
+	background: -moz-linear-gradient(top, #0d89dc 0%, #1888f7 44%, #1272ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0d89dc), color-stop(44%,#1888f7), color-stop(100%,#1272ce)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* W3C */
+	text-transform:uppercase;
+	border:none;
+	border-radius: 0px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+
+}
+
+.navbar-inverse .navbar-text {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #f6ff00;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+	background: rgb(40,113,186); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(40,113,186,1) 0%, rgba(0,93,186,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(40,113,186,1)), color-stop(100%,rgba(0,93,186,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(40,113,186,1) 0%,rgba(0,93,186,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(40,113,186,1) 0%,rgba(0,93,186,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(40,113,186,1) 0%,rgba(0,93,186,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(40,113,186,1) 0%,rgba(0,93,186,1) 100%); /* W3C */
+}
+
+.esconder{
+	position: absolute;
+	text-indent: -9999px;
+} 
+
+#menuAcessi{
+	font-size: 12px;
+	float:right;
+}
+
+.margin-button{
+	margin-right:14px;
+	margin-bottom:15px;
+}
+
+footer{
+	background: #0d89dc; /* Old browsers */
+	background: -moz-linear-gradient(top, #0d89dc 0%, #1888f7 44%, #1272ce 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0d89dc), color-stop(44%,#1888f7), color-stop(100%,#1272ce)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #0d89dc 0%,#1888f7 44%,#1272ce 100%); /* W3C */
+	border-color: #0081ec;
+}
+
+footer a{
+	color:white;
+}
+
+footer span{
+	color:white;
+}
+
+footer a:hover{
+	color:yellow;	
+}
+
+/*formatacao mapa do site do footer*/
+.menu-footer {
+	padding-top:30px;
+	
+}
+
+.menu-footer ul li{		
+		list-style:none;
+		line-height:32px;
+		color:#cccccc;
+		font-size: 17px;
+}
+
+.menu-footer .menu-title{
+	font-size:25px;
+	color:#ff0000;
+	padding-bottom:7px;
+	text-transform:uppercase;
+}
+/*fim da formatacao mapa do site do footer*/
+
+/*formatacao texto home */
+
+.textoHome{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing:0.8px;
+    margin: 25px 0px;  
+}
+
+.copyright{
+	text-align:center;
+	padding:20px;
+	color:#cccccc;
+}
+
+.thumbJogos{
+	text-align: justify;
+    text-justify: inter-word;	
+	
+}
+
+.thumbJogosMargin{
+	margin-left:15px;		
+}
+
+.thumbJogos p{
+	padding:17px 17px 0px 17px ;
+}
+
+.thumbJogos button{
+	margin-left:17px ;
+	margin-bottom:12px ;
+}
+
+/* Pills
+---------------------------------- */
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.nav-pills > li > a:hover {
+	background-color: #55acee;
+	border-color: #55acee;
+	color: #ffffff;
+}
+.nav-pills > li > a {
+	border-radius: 0;
+	padding: 8px 20px;
+	border: 1px solid #cacaca;
+	color: #666666;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.panel-group .panel-heading + .panel-collapse .panel-body {
+  border-top: 5px solid #dddddd;
+  background-color:red;
+}
+
+/* Collapse
+---------------------------------- */
+.panel-group .panel {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	border: none;
+}
+.panel-default > .panel-heading {
+	padding: 0;
+	outline: none;
+	border: none;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	width: 100%;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border: 1px solid #f0f0f0;
+	border-top: none;
+	background-color: #ffffff;
+}
+.panel-heading a {
+	font-weight: 400;
+	padding: 12px 35px 12px 15px;
+	display: inline-block;
+	width: 100%;
+	background-color: #55acee;
+	color: #ffffff;
+	position: relative;
+	text-decoration: none;
+}
+.panel-heading a.collapsed {
+	color: #ffffff;
+	background-color: #595959;
+}
+.panel-heading a:after {
+	position: absolute;
+	right: 15px;
+	font-size: 14px;
+	font-weight: 300;
+	top: 50%;
+	line-height: 1;
+	margin-top: -7px;
+}
+
+.panel-heading a:hover {
+	text-decoration: none;
+	background-color: #55acee;
+	color: #ffffff;
+}
+.panel-title a i {
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+/* Redes Sociais
+---------------------------------- */
+
+.redes-sociais {
+	padding: 0;
+	list-style: none;
+	margin: 5px 0;
+}
+.redes-sociais li {
+	margin: 0px 20px 10px 0;
+	display: inline-block;
+	font-size: 40px;
+}
+.redes-sociais li a {
+	color: #ffffff;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.redes-sociais li.facebook a:hover {
+	color: #3b5998;
+}
+
+.redes-sociais li.twitter a:hover {
+	color: #55acee;
+}
+
+.redes-sociais li.voltarTopo a:hover {
+	color: #000000;
+}
+
+/* Galeria isotope da pagina de dicas*/
+/* inicio*/
+.portfolioFilter a { 
+    margin-right: 10px; 
+	color:#666;
+	text-decoration:none;
+}
+
+.portfolioFilter a.current { 
+    font-weight:bold;
+}
+
+.margin-top{
+	margin-top:150px;
+}
+
+img {
+    margin:5px;
+}
+
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* duracao da transicao*/
+
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.isotope-item {
+	margin: 11px;
+}
+
+.isotope-item .btn-default {
+	color: #000000;
+}
+.isotope-item .btn-default:hover {
+	color: #ffffff;
+	background-color: rgba(85, 172, 238, 0.9);
+}
+/* Fim galeria*/
+
+/* Efeito Dicas
+----------------------------------------------------------------------------- */
+.overlay-container {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: -1px;
+	left: 0;
+	right: -1px;
+	background-color: rgba(85, 172, 238, 0.9);
+	cursor: pointer;
+	overflow: hidden;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transition: all linear 0.2s;
+	-moz-transition: all linear 0.2s;
+	-ms-transition: all linear 0.2s;
+	-o-transition: all linear 0.2s;
+	transition: all linear 0.2s;
+}
+.overlay:hover {
+	text-decoration: none;
+}
+.overlay span {
+	position: absolute;
+	display: block;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	color: #ffffff;
+	font-size: 25px;
+	font-weight: 300;
+}
+.overlay i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 25px;
+	line-height: 1x;
+	color: #ffffff;
+	margin-top: -8px;
+	margin-left: -8px;
+	text-align: center;
+}
+.overlay-container:hover .overlay {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+

@@ -1,0 +1,45 @@
+.proTable__container {
+    position: relative;
+    margin: 2.5em 0 .2em;
+    max-height: 75%;
+    overflow: auto;
+}
+
+    .proTable__container--modal {
+        margin-top: .5em;
+        max-height: 300px;
+    }
+    
+    .proTable > tbody > tr:not(.proTable__title):hover > td{
+        background: #555C6B;
+        background: rgba(85, 92, 107, .2);
+        cursor: pointer;
+    }
+    
+    .proTable .proTable__blocked-item { background-color: #FCEEA4; }
+    
+    .proTable tbody > tr > td { vertical-align: middle; }
+
+.proTableLoader,
+.proTableEOF {
+    padding-bottom: 0;
+    background-color: #ecf0f1 !important;
+}
+
+    .proTableLoader > p,
+    .proTableEOF > p {
+        font-size: 1.2em;
+        color: #333;
+    }
+
+.proPagination > .proPagination__item > .proPagination__link { color: #202228; }
+
+.proPagination > .proPagination__item > .proPagination__link--no-rounded-border { border-radius: 0; }
+
+.proPagination > .proPagination__item--active > .proPagination__link,
+.proPagination > .proPagination__item--active > .proPagination__link:hover,
+.proPagination > .proPagination__item--active > .proPagination__link:focus {
+	color: #FFF;
+	background-color: #202228;
+	border-color: #15161A;
+}

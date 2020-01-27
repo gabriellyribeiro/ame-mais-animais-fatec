@@ -1,0 +1,134 @@
+/* ==========================================================================
+ Formul�rios em geral
+========================================================================== */
+.proForm__container {
+    padding: 0;
+    margin-bottom: 1em;
+    list-style: none;
+}
+
+/* Container dos campos de formul�rio
+========================================================================== */
+.proForm__field {
+    border: solid #B5B5B5;
+    border-width: 0 1px 1px 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .proForm__field--md-noRightBorder { border-right: 0; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .proForm__field--sm-noRightBorder { border-right: 0; }
+    .proForm__field--md-noRightBorder { border-right-width: 1px; }
+}
+
+@media (max-width: 767px) {
+    .proForm__field { border-right-width: 0; }
+    .proForm__field--xs-rightBorder { border-right-width: 1px; }
+}
+
+.proForm__field--disabled { background-color: #F5F5F5; }
+
+/* Inputs e Floating Labels
+========================================================================== */
+.proForm__label,
+.proForm__input {
+
+}
+
+.proForm__label:hover,
+.proForm__input:hover { cursor: pointer; }
+
+/* Inputs
+========================================================================== */
+.proForm__input {
+    
+}
+
+.proForm__input--error::-webkit-input-placeholder {
+    color: rgba(241, 44, 73, .90);
+}
+
+.proForm__input--error::-moz-placeholder {
+    color: rgba(241, 44, 73, .90);
+}
+
+@media (max-width: 991px) {
+    .proForm__input {
+        padding: 2.25em 0 1em;
+    }
+}
+
+.proForm__input:focus { color: #333; }
+
+.proForm__field--disabled > .proForm__input { background-color: #F5F5F5; }
+
+.proForm__input--multi {
+    display: inline-block;
+    padding-top: .8em;
+    margin-top: 1.45em;
+    padding-right: 0;
+}
+
+/* Naturezas de opera��o
+========================================================================== */
+.proForm__input--natureza-fato { width: 13%; min-width: 75px; }
+.proForm__input--natureza-cliente { width: 10%; min-width: 50px; }
+.proForm__input--natureza-aval { width: 7%; min-width: 40px; }
+.proForm__input--natureza-pagrec { width: 10%; min-width: 50px; }
+.proForm__input--natureza-grupo { width: 10%; min-width: 50px; }
+
+/* Pesquisa
+========================================================================== */
+.proForm__input--search-id { width: 15%; min-width: 50px; background-color: transparent; }
+.proForm__input--search-description { width: 65%; min-width: 15px; background-color: transparent; }
+.proForm__input--search-btn { width: 15%; min-width: 15px; margin-top: 1.1em; }
+
+@media (max-width: 991px) {
+    .proForm__input--search-btn { margin-top: -1.1em; }
+}
+
+@media (max-width: 767px) {
+    .proForm__input--search-btn { width: 100%; }
+    .proForm__input--search-btn > span { display: inline-block !important; }
+}
+
+.proForm__label--error {
+    color: #F12C49;
+    color: rgba(241, 44, 73, .90);
+}
+
+/* Spinner
+========================================================================== */
+.proForm__spinner { visibility: hidden; }
+
+
+.form_basico {}
+
+.form_basico label {display:block;height:20px;line-height:20px;}
+.form_basico .inp_txt {width:100%;border:1px solid #aaa;height:30px;line-height:30px;padding:0 10px;display:block;}
+.form_basico .inp_txt:focus {border:1px solid #999;}
+.form_basico .inp_select {width:100%;display:block;border:1px solid #aaa;height:30px;line-height:30px;}
+.form_basico .inp_select option {padding:0 10px;}
+
+.form_basico .container_campo {margin-bottom:20px;display:block;width:100%;}
+.form_basico .container_campo.dois {width:45%;float:left;margin-right:10%;}
+.form_basico .container_campo.dois + .dois {margin-right:0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

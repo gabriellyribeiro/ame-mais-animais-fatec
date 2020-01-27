@@ -1,0 +1,10 @@
+/nbproject/*
+build.xml
+/build/*
+/dist/
+/node_modules/*
+/web/js/dist/*
+/amemaisanimais/nbproject/private/
+*.sublime-project
+*.sublime-workspace
+/web/dist/dist.min.*

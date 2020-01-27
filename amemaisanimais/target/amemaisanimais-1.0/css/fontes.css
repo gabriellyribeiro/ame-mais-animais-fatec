@@ -1,0 +1,33 @@
+h1.tituloh1{
+        color:#273b4e;
+	border-bottom: 1px solid;
+        text-align: left;
+        font-size: 35px; 
+        margin-bottom: 20px;
+}
+h2.tituloh2{
+        color:#273b4e;
+	border-bottom: 1px solid;
+        text-align: left;
+        font-size: 35px; 
+        margin-left: 20px;
+        margin-bottom: 15px;
+}
+
+h3.tituloh3{
+        color:#273b4e;
+        text-align: left;
+        font-size: 28px; 
+        margin-left: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+}
+
+iframe.video{
+    margin-top: 50px;
+}
+
+.embed-responsive-16by9{
+    padding-bottom:50.25% !important;
+}
+

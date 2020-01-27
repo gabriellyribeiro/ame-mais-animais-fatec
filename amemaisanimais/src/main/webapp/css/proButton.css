@@ -1,0 +1,32 @@
+.proButton,
+.proButton[disabled] {
+    background-color: #0d89dc;
+    border: 1px #04588f solid;
+}
+
+    .proButton:focus,
+    .proButton:hover {
+        background-color: #04588f;
+        border-color: #0d89dc;
+        outline: 0; 
+    }
+
+    .proButton--link {
+        color: #3E434d;
+    }
+
+        .proButton:focus,
+        .proButton--link:hover{
+            color: #5C6473;
+            outline: 0;
+        }
+
+    .proButton--modal-filter,
+    .proButton--modal-clear {
+        margin-top: 1em;
+    }
+
+        @media (max-width: 767px) {
+            .proButton--modal-filter,
+            .proButton--modal-clear { margin-top: 0; }
+        }
